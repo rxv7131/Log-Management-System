@@ -1,0 +1,27 @@
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.contentother {
+  height: 100%;
+  padding: 20px 20px 10px;
+  color: #fff;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+	background-color: #1A3768 !important;
+}
+
+.text-primary {
+	color: #1A3768 !important;
+}
